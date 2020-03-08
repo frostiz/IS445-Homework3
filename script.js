@@ -44,9 +44,7 @@ function generateArray(start, end, step) {
 }
 
 function calcSum(array) {
-    const sum = array.reduce((sum, val) => sum + val, 0);
-
-    return sum;
+    return array.reduce((sum, val) => sum + val, 0);
 }
 
 function getBinaries(array) {
