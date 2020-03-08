@@ -6,7 +6,7 @@ function show(elem) {
 }
 
 function hide(elem) {
-    elem.style.display = 'block';
+    elem.style.display = 'none';
 }
 
 function myPrompt(message, allowZeroValue = true) {
